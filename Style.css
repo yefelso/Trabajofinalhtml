@@ -7,7 +7,7 @@
   body { 
     margin:0;
     padding:0;
-    background:blanchedalmond;
+    background: linear-gradient(blanchedalmond,white);
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;
@@ -94,6 +94,10 @@
     margin: auto;
     text-align: center;
     color: black;
+}
+.texto{
+  text-align: center;
+  font-family:'roboto slab',sans-serif;
 }
 .title{
     text-align: center;
