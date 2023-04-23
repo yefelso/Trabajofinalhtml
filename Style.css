@@ -5,9 +5,10 @@
   }
   
   body { 
+    background: url(out.jpg);
     margin:0;
     padding:0;
-    background: linear-gradient(blanchedalmond,white);
+    
     background-size: cover;
     font-family: sans-serif;
     height: 100vh;
@@ -84,28 +85,34 @@
     text-align: center;
     align-items: center;
   }
-  .container2{
+.texto{
+  text-align: left;
+  font-family:'roboto slab',sans-serif;
+  color: rgb(4, 4, 59);
+}
+.container2{
     background:transparent;
-    width: 40%;
+    width: 35%;
     height: 100px;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: auto;
-    text-align: center;
+    margin: 15px;
+    text-align: left;
     color: black;
 }
-.texto{
-  text-align: center;
-  font-family:'roboto slab',sans-serif;
-}
 .title{
-    text-align: center;
-    font-size: 40px;
+  border-style: solid;
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+    font-size: 30px;
     color: #181515;
-    margin-top: 100px;
+    margin-top: 70px;
     font-weight: 100;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto slab', sans-serif;
 }
 .container1{
     width: 100%;
@@ -153,4 +160,12 @@
     font-weight: 500;
     text-decoration: none;
     color: #3498db;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100% !important;
+  height: 350px !important;
+
 }
