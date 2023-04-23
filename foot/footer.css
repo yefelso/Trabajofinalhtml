@@ -10,6 +10,8 @@ body{
 }
 .container{
     max-width: 1200px;
+    height: 300px;
+    margin: auto;
 }
 .footer{
     background-color: black;
@@ -67,4 +69,7 @@ background-color: aqua;
         width: 100%;
         margin-bottom: 30px;
     }
+}
+.text0{
+    color:white
 }

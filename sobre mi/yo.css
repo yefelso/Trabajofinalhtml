@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    background: linear-gradient(rgba(163, 6, 66, 0.699),rgba(8, 48, 107, 0.596));
+    background: linear-gradient(rgba(216, 206, 210, 0.699),rgba(8, 48, 107, 0.596));
     color: #404040;
     font-family: 'roboto slab'sans-serif;
 }
@@ -111,7 +111,7 @@ body {
     flex-wrap: wrap;
     padding: 1.5rem 2rem;
     box-shadow: 0 0 12px rgba(0, 0, 0, .2);
-    background-color: #fff;
+    background-color: white;
     border-radius: 15px;
     width: 100%;
 }
@@ -148,7 +148,7 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    color: #fff;
+    color: #0f0404;
     box-shadow: 0 0 12px rgba(0, 0, 0, .2);
     font-size: 1.3rem;
 }
@@ -200,4 +200,9 @@ body {
 }
 .titulo{
     font-family:'roboto slab',sans-serif; 
+}
+.mis-redes{
+    background-color:transparent;
+    color: #0f0404;
+    box-shadow: #0f0404;
 }
